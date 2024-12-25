@@ -3,7 +3,7 @@ public abstract class TangibleAsset {
   private int price;
   private String color;
 
-public TangibleAsset8String name, int price, String color) {
+	public TangibleAsset(String name, int price, String color) {
   this.name = name;
   this.price = price;
   this.color = color;
